@@ -75,7 +75,7 @@ class App extends Component {
             }) => {
               console.log(loading,info, error);
               if (loading) return <p>Loading...</p>;
-              if (error) return <p>Error :(</p>;
+              if (error) return <p>Error! :(</p>;
 
 
 
